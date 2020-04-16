@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>reto2</title>
+    
+</head>
+<body style="background-color:white">
+   
+    <form action="/introduccion_web-1/guardado.html" method="GET">
+        <fieldset style="border: solid ; border-width: 5px; ">
+            <legend >Elementos</legend>
+
+            
+           <div >
+            
+            <table   width=
+            "34%">
+                <tr>
+                    
+                    <td >Email</td>
+                   
+                    <td style="text-align: right;"> PASSWORD</td> <br>
+                </tr>
+            </table>
+
+            
+            <input type="text" id="name" name="email" size="55px" placeholder="Introduce tu correo" required >   
+            <input type="text" id="password" name="password" size="55px" placeholder="Introduce tu password"  required >
+            </div>
+
+            <br>
+            <div>
+            <label for="name" >ADDRESS:</label>
+            <input type="text" id="direcion" name="direcion"size="101px" placeholder="Introduce tu direccion"  required >
+            <br><br>
+            <label for="name" >ADDRESS2:</label>
+            <input type="text" id="direcion1" name="direcion1" size="100px" placeholder="Introduce tu direccion"  required >
+            <br><br>
+            </div>
+            <div>
+                <label for="name" >City</label>
+                <input type="text" id="city" name="city"size="50px" placeholder="Introduce tu city"  required >
+                <label for="name" >State</label>
+                <select name="state" id="State" required>
+                    <option value="">seleciona un estado</option>
+                    <option value="mexico">mexico</option>
+                    <option value="jalisco">jalisco</option>
+                    <option value="michoacan">michoacan</option>
+                    <option value="zacatecas">zacatecas</option>
+                    <option value="puebla">puebla</option>
+        
+                </select>
+                <label for="name" >Zip</label>
+                <input type="text" id="direccion1" name="direccion1" size="20px" 
+                placeholder="Introduce tu codigo postal"  required >
+            </div>
+            <br><br>
+             
+            <input type="checkbox" id="me" name="me" value="me">
+            <label for="me">Check me out</label>
+            <br><br>
+            <button type="button"  onclick="alert('HOLA')">sing in</button> 
+
+            <br><br>
+
+           
+            </fieldset> 
+            
+        </form>    
+    
+</body>
+</html>
