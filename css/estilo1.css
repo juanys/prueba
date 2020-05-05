@@ -1,0 +1,14 @@
+body{
+    background-color: lightblue;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+p{
+    font-family: Verdana;
+    font-size: 20px;
+    /*prefijos para el navegador faifox */
+    background-image: -moz-linear-gradient(top, #f4fa58, #ff0000);
+    background-color: #f4fa58;
+}
